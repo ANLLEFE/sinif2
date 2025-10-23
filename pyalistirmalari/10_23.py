@@ -24,3 +24,15 @@ print(isimler_tuple + soyadlar_tuple)
 #tuple ııcndekı bılgılerı carparsak tekrarlmaıs oluruz 
 print(t * 3 )#t tuple ını 3 kere tekrarlatır BABAYLA HEP ZOR YARISIRLAR 
 ##################################
+a = 1, 2 ,(3,4)
+b , c , d = a #tuple unpacking b=1 c=2 d=(3,4)
+print(d[-10:1])
+#sınavda boyle bır soru gelecek  
+a = ( 1,2 ,(3,4))
+b= a,5,6
+print(b)
+##################################
+a = 1,2,3,4 
+x, *xs = a
+y = xs[-1]
+print(y)
